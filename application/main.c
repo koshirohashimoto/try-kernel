@@ -1,7 +1,14 @@
 ﻿#include <trykernel.h>
 
 /* task control data */
-UINT	cur_task
+UINT cur_task 	= 0;	// current task ID
+UINT next_task 	= 0;	// next task ID
+
+/* Stack info */
+#define STACK_SIZE 1024
+UW stack_1[STACK_SIZE/sizeof(UW)];
+UW stack_2[STACK_SIZE/sizeof(UW)];
+
 
 /* 時間待ち関数 */
 static void delay_ms( UINT ms)

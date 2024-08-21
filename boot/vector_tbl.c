@@ -1,6 +1,5 @@
 ﻿/* 
- *** Try Kernel
- *      例外ベクターテーブル
+ *** Exception vector table
 */
 
 #include <typedef.h>
@@ -8,29 +7,29 @@
 #include <syslib.h>
 #include <knldef.h>
 
-/* デフォルトハンドラ */
+/* Default handler */
 void Default_Handler(void)
 {
     while(1);
 }
 
-/* 例外ベクターテーブル */
+/* Exception vector talbe */
 void (* const vector_tbl[])() __attribute__((section(".vector"))) = {
     (void(*)()) (INITIAL_SP),   // 0: Top of Stack
     Reset_Handler,              // 1: Reset
     Default_Handler,            // 2: NMI
     Default_Handler,            // 3: Hard Fault
-    0,                          // 4: 未使用
-    0,                          // 5: 未使用
-    0,                          // 6: 未使用
-    0,                          // 7: 未使用
-    0,                          // 8: 未使用
-    0,                          // 9: 未使用
-    0,                          // 10: 未使用
-    Default_Handler,            // 11: Svcall
-    0,                          // 12: 未使用
-    0,                          // 13: 未使用
-    dispatch_entry,            // 14: Pend SV
+    0,                          // 4:
+    0,                          // 5:
+    0,                          // 6:
+    0,                          // 7:
+    0,                          // 8:
+    0,                          // 9:
+    0,                          // 10:
+    Default_Handler,            // 11: Svscall
+    0,                          // 12:
+    0,                          // 13:
+    dispatch_entry,				// 14: Pend SV
     Default_Handler,            // 15: Systick
     Default_Handler,            // IRQ 0 
     Default_Handler,            // IRQ 1 
