@@ -1,18 +1,18 @@
-﻿
-#ifndef SYSDEF_H
-#define SYSDEF_H
-/*
- *** Try Kernel
- *          システム（ハードウェア）関連共通定義
+﻿/*
+ *** System and HW related common definition
  */
 
-/* メモリ関連 */
+#ifndef SYSDEF_H
+#define SYSDEF_H
+
+
+/* Memory */
 #define SRAM_START              (0x20000000)
 #define SRAM_SIZE               (256*1024)
 
 #define	INITIAL_SP              (SRAM_START + SRAM_SIZE)
 
-/* APB ペリフェラル */
+/* APB peripheral */
 /* Clocks */
 #define CLOCKS_BASE             0x40008000
 #define CLK_GPOUT0              (CLOCKS_BASE+0x00)
@@ -50,7 +50,7 @@
 #define CLK_KIND_ADC            8
 #define CLK_KIND_RTC            9
 
-/* Reset Controler */
+/* Reset Controller */
 #define RESETS_BASE             0x4000C000
 #define RESETS_RESET            (RESETS_BASE+0x0)
 #define RESETS_WDSEL            (RESETS_BASE+0x4)
@@ -125,7 +125,7 @@
 #define UART_CR_EN              (1<<0)
 #define UART_FR_TXFF            (1<<5)
 
-/* IOPORT レジスタ */
+/* IOPORT register */
 #define SIO_BASE                0xD0000000
 #define	GPIO_IN                 (SIO_BASE+0x04)
 #define GPIO_OUT                (SIO_BASE+0x10)
@@ -136,7 +136,7 @@
 #define GPIO_OE_CLR             (SIO_BASE+0x28)
 #define GPIO_OE_XOR             (SIO_BASE+0x2C)
 
-/* SysTick レジスタ */
+/* SysTick register */
 #define SYST_CSR                (0xE000E010)
 #define SYST_RVR                (0xE000E014)
 #define SYST_CVR                (0xE000E018)
@@ -146,7 +146,7 @@
 #define SYST_CSR_TICKINT        (1<<1)
 #define SYST_CSR_ENABLE	        (1<<0)
 
-/* クロック周波数 */
+/* Clock frequency */
 #define	CLOCK_XOSC              (12000000UL)
 #define	CLOCK_REF               (CLOCK_XOSC)
 #define	CLOCK_PERI              (CLOCK_SYS)
@@ -161,7 +161,7 @@
 #define	KHz                     (1000)
 #define	MHz                     (KHz*1000)
 
-/* NVIC レジスタ */
+/* NVIC register */
 #define SCB_SHPR3               (0xE000ED20)
 
 #define	INTLEVEL_0              (0x00)

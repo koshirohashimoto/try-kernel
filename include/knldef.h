@@ -1,26 +1,30 @@
-﻿
-#ifndef KNLDEF_H
-#define KNLDEF_H
-/*
- *** Try Kernel
- *      カーネル内部共通定義
+﻿/*
+ *** Kernel common definition
  */
 
-/* グローバル関数 */
-extern void Reset_Handler(void);        /* リセットハンドラ */
-extern void dispatch_entry(void);		// dispatch
+#ifndef KNLDEF_H
+#define KNLDEF_H
 
-/* Call dispatch */
+/* Global function */
+extern void Reset_Handler(void);        // Reset hander
+extern void dispatch_entry(void);		// Dispatcher
+
+/* Call dispatcher */
 #define SCB_ICSR		0xE000ED04		// Address of ICSR
 #define ICSR_PENDSVSET	(1<<28)			// bit for PendSV set-pending
 
 static inline void dispatch(void)
 {
-	out_w(SCB_ICSR, ICSR_PENDSVSET);
+	out_w(SCB_ICSR, ICSR_PENDSVSET);	// PendSV exception
 }
 
+/* Scheduler */
+extern void scheduler(void);
 
-/* OSメイン関数 */
+/* Make context data */
+extern void *make_context(UW *sp, UINT ssize, void (*fp)());
+
+/* Main function */
 extern int main(void);
 
 #endif  /* KNLDEF_H */

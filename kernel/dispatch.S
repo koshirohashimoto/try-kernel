@@ -1,5 +1,5 @@
 /*
- *** Dispatch
+ *** Dispatcher
 */
 
 	.align 2
