@@ -1,0 +1,435 @@
+Archive member included to satisfy reference by file (symbol)
+
+C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+                              ./boot/reset_hdr.o (__aeabi_uidiv)
+C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+                              C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+                              ./boot/reset_hdr.o (__aeabi_uldivmod)
+C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o)
+                              C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_aeabi_uldivmod.o) (__udivmoddi4)
+C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_clzdi2.o)
+                              C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o) (__clzdi2)
+C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_clzsi2.o)
+                              C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_clzdi2.o) (__clzsi2)
+
+Discarded input sections
+
+ .group         0x00000000        0xc ./kernel/syslib.o
+ .group         0x00000000        0xc ./kernel/syslib.o
+ .group         0x00000000        0xc ./kernel/syslib.o
+ .group         0x00000000        0xc ./kernel/syslib.o
+ .group         0x00000000        0xc ./kernel/syslib.o
+ .group         0x00000000        0xc ./kernel/syslib.o
+ .group         0x00000000        0xc ./kernel/syslib.o
+ .group         0x00000000        0xc ./kernel/syslib.o
+ .group         0x00000000        0xc ./kernel/syslib.o
+ .group         0x00000000        0xc ./kernel/syslib.o
+ .text          0x00000000        0x0 ./kernel/syslib.o
+ .data          0x00000000        0x0 ./kernel/syslib.o
+ .bss           0x00000000        0x0 ./kernel/syslib.o
+ .group         0x00000000        0xc ./boot/boot2.o
+ .text          0x00000000        0x0 ./boot/boot2.o
+ .data          0x00000000        0x0 ./boot/boot2.o
+ .bss           0x00000000        0x0 ./boot/boot2.o
+ .debug_macro   0x00000000      0xa90 ./boot/boot2.o
+ .group         0x00000000        0xc ./boot/reset_hdr.o
+ .group         0x00000000        0xc ./boot/reset_hdr.o
+ .group         0x00000000        0xc ./boot/reset_hdr.o
+ .group         0x00000000        0xc ./boot/reset_hdr.o
+ .group         0x00000000        0xc ./boot/reset_hdr.o
+ .group         0x00000000        0xc ./boot/reset_hdr.o
+ .group         0x00000000        0xc ./boot/reset_hdr.o
+ .group         0x00000000        0xc ./boot/reset_hdr.o
+ .group         0x00000000        0xc ./boot/reset_hdr.o
+ .group         0x00000000        0xc ./boot/reset_hdr.o
+ .text          0x00000000        0x0 ./boot/reset_hdr.o
+ .data          0x00000000        0x0 ./boot/reset_hdr.o
+ .bss           0x00000000        0x0 ./boot/reset_hdr.o
+ .debug_macro   0x00000000      0xa90 ./boot/reset_hdr.o
+ .debug_macro   0x00000000       0x22 ./boot/reset_hdr.o
+ .debug_macro   0x00000000       0x56 ./boot/reset_hdr.o
+ .debug_macro   0x00000000       0x51 ./boot/reset_hdr.o
+ .debug_macro   0x00000000      0x103 ./boot/reset_hdr.o
+ .debug_macro   0x00000000       0x6a ./boot/reset_hdr.o
+ .debug_macro   0x00000000      0x1df ./boot/reset_hdr.o
+ .debug_macro   0x00000000       0x16 ./boot/reset_hdr.o
+ .debug_macro   0x00000000      0x2f9 ./boot/reset_hdr.o
+ .debug_macro   0x00000000       0x28 ./boot/reset_hdr.o
+ .group         0x00000000        0xc ./boot/vector_tbl.o
+ .group         0x00000000        0xc ./boot/vector_tbl.o
+ .group         0x00000000        0xc ./boot/vector_tbl.o
+ .group         0x00000000        0xc ./boot/vector_tbl.o
+ .group         0x00000000        0xc ./boot/vector_tbl.o
+ .group         0x00000000        0xc ./boot/vector_tbl.o
+ .group         0x00000000        0xc ./boot/vector_tbl.o
+ .group         0x00000000        0xc ./boot/vector_tbl.o
+ .group         0x00000000        0xc ./boot/vector_tbl.o
+ .group         0x00000000        0xc ./boot/vector_tbl.o
+ .text          0x00000000        0x0 ./boot/vector_tbl.o
+ .data          0x00000000        0x0 ./boot/vector_tbl.o
+ .bss           0x00000000        0x0 ./boot/vector_tbl.o
+ .debug_macro   0x00000000      0xa90 ./boot/vector_tbl.o
+ .debug_macro   0x00000000       0x22 ./boot/vector_tbl.o
+ .debug_macro   0x00000000       0x56 ./boot/vector_tbl.o
+ .debug_macro   0x00000000       0x51 ./boot/vector_tbl.o
+ .debug_macro   0x00000000      0x103 ./boot/vector_tbl.o
+ .debug_macro   0x00000000       0x6a ./boot/vector_tbl.o
+ .debug_macro   0x00000000      0x1df ./boot/vector_tbl.o
+ .debug_macro   0x00000000       0x16 ./boot/vector_tbl.o
+ .debug_macro   0x00000000      0x2f9 ./boot/vector_tbl.o
+ .debug_macro   0x00000000       0x28 ./boot/vector_tbl.o
+ .group         0x00000000        0xc ./application/main.o
+ .group         0x00000000        0xc ./application/main.o
+ .group         0x00000000        0xc ./application/main.o
+ .group         0x00000000        0xc ./application/main.o
+ .group         0x00000000        0xc ./application/main.o
+ .group         0x00000000        0xc ./application/main.o
+ .group         0x00000000        0xc ./application/main.o
+ .group         0x00000000        0xc ./application/main.o
+ .group         0x00000000        0xc ./application/main.o
+ .group         0x00000000        0xc ./application/main.o
+ .text          0x00000000        0x0 ./application/main.o
+ .data          0x00000000        0x0 ./application/main.o
+ .bss           0x00000000        0x0 ./application/main.o
+ .debug_macro   0x00000000      0xa90 ./application/main.o
+ .debug_macro   0x00000000       0x22 ./application/main.o
+ .debug_macro   0x00000000       0x56 ./application/main.o
+ .debug_macro   0x00000000       0x51 ./application/main.o
+ .debug_macro   0x00000000      0x103 ./application/main.o
+ .debug_macro   0x00000000       0x6a ./application/main.o
+ .debug_macro   0x00000000      0x1df ./application/main.o
+ .debug_macro   0x00000000       0x16 ./application/main.o
+ .debug_macro   0x00000000      0x2f9 ./application/main.o
+ .debug_macro   0x00000000       0x28 ./application/main.o
+ .data          0x00000000        0x0 C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+ .data          0x00000000        0x0 C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x00000000        0x0 C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+ .text          0x00000000        0x0 C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o)
+ .data          0x00000000        0x0 C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o)
+ .bss           0x00000000        0x0 C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o)
+ .ARM.extab.text.__udivmoddi4
+                0x00000000        0x0 C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o)
+ .data          0x00000000        0x0 C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_clzdi2.o)
+ .bss           0x00000000        0x0 C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_clzdi2.o)
+ .data          0x00000000        0x0 C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_clzsi2.o)
+ .bss           0x00000000        0x0 C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_clzsi2.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+ROM              0x10000000         0x00200000         xr
+RAM              0x20000000         0x00040000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD ./kernel/syslib.o
+LOAD ./boot/boot2.o
+LOAD ./boot/reset_hdr.o
+LOAD ./boot/vector_tbl.o
+LOAD ./application/main.o
+START GROUP
+LOAD C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a
+LOAD C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libg.a
+LOAD C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp\libc.a
+END GROUP
+
+boot2           0x10000000      0x100
+                0x10000000                        __boot2_start__ = .
+ *(.boot2)
+ .boot2         0x10000000      0x100 ./boot/boot2.o
+                0x10000000                boot2
+                0x10000100                        __boot2_end__ = .
+                0x00000001                        ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
+
+.text           0x10000100      0xbcd
+                0x10000100                        __vector_org = .
+ *(.vector)
+ .vector        0x10000100       0xbc ./boot/vector_tbl.o
+                0x10000100                vector_tbl
+ *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .text*)
+ .text.in_w     0x100001bc       0x14 ./kernel/syslib.o
+ .text.out_w    0x100001d0       0x18 ./kernel/syslib.o
+ .text.tm_com_init
+                0x100001e8       0x48 ./kernel/syslib.o
+                0x100001e8                tm_com_init
+ .text.tm_putstring
+                0x10000230       0x58 ./kernel/syslib.o
+                0x10000230                tm_putstring
+ .text.in_w     0x10000288       0x14 ./boot/reset_hdr.o
+ .text.out_w    0x1000029c       0x18 ./boot/reset_hdr.o
+ .text.clr_w    0x100002b4       0x20 ./boot/reset_hdr.o
+ .text.set_w    0x100002d4       0x20 ./boot/reset_hdr.o
+ .text.set_primask
+                0x100002f4       0x16 ./boot/reset_hdr.o
+ .text.get_primask
+                0x1000030a       0x16 ./boot/reset_hdr.o
+ .text.init_pll
+                0x10000320       0xd0 ./boot/reset_hdr.o
+ .text.clock_config
+                0x100003f0       0xd0 ./boot/reset_hdr.o
+ .text.init_clock
+                0x100004c0      0x244 ./boot/reset_hdr.o
+ .text.init_peri
+                0x10000704       0xd4 ./boot/reset_hdr.o
+ .text.init_section
+                0x100007d8       0x6c ./boot/reset_hdr.o
+ .text.init_systim
+                0x10000844       0x48 ./boot/reset_hdr.o
+ .text.Reset_Handler
+                0x1000088c       0x44 ./boot/reset_hdr.o
+                0x1000088c                Reset_Handler
+ .text.Default_Handler
+                0x100008d0        0x6 ./boot/vector_tbl.o
+                0x100008d0                Default_Handler
+ .text.in_w     0x100008d6       0x14 ./application/main.o
+ .text.out_w    0x100008ea       0x18 ./application/main.o
+ *fill*         0x10000902        0x2 
+ .text.delay_ms
+                0x10000904       0x44 ./application/main.o
+ .text.main     0x10000948       0x34 ./application/main.o
+                0x10000948                main
+                0x1000097c                        __start = .
+ *(.text)
+ .text          0x1000097c      0x114 C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+                0x1000097c                __aeabi_uidiv
+                0x1000097c                __udivsi3
+                0x10000a88                __aeabi_uidivmod
+ .text          0x10000a90        0x4 C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+                0x10000a90                __aeabi_idiv0
+                0x10000a90                __aeabi_ldiv0
+ .text          0x10000a94       0x40 C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+                0x10000a94                __aeabi_uldivmod
+ .text          0x10000ad4       0x18 C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_clzdi2.o)
+                0x10000ad4                __clzdi2
+ .text          0x10000aec       0x3c C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_clzsi2.o)
+                0x10000aec                __clzsi2
+ *(.text.*)
+ .text.__udivmoddi4
+                0x10000b28      0x198 C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o)
+                0x10000b28                __udivmoddi4
+ *(.rodata)
+ .rodata        0x10000cc0        0xd ./application/main.o
+ *(.rodata.*)
+
+.glue_7         0x10000cd0        0x0
+ .glue_7        0x10000cd0        0x0 linker stubs
+
+.glue_7t        0x10000cd0        0x0
+ .glue_7t       0x10000cd0        0x0 linker stubs
+
+.vfp11_veneer   0x10000cd0        0x0
+ .vfp11_veneer  0x10000cd0        0x0 linker stubs
+
+.v4_bx          0x10000cd0        0x0
+ .v4_bx         0x10000cd0        0x0 linker stubs
+
+.iplt           0x10000cd0        0x0
+ .iplt          0x10000cd0        0x0 ./kernel/syslib.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x10000ccd                        __exidx_start = .
+
+.ARM.exidx      0x10000cd0        0x8
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx.text.__udivmoddi4
+                0x10000cd0        0x8 C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o)
+                0x10000cd8                        __exidx_end = .
+                0x10000cd8                        __data_org = .
+
+.rel.dyn        0x10000cd8        0x0
+ .rel.iplt      0x10000cd8        0x0 ./kernel/syslib.o
+
+.data           0x20000000        0x0 load address 0x10000cd8
+                0x20000000                        __data_start = .
+ *(.data)
+ *(.data.*)
+                0x20000000                        . = ALIGN (0x4)
+                0x20000000                        __data_end = .
+
+.igot.plt       0x20000000        0x0
+ .igot.plt      0x20000000        0x0 ./kernel/syslib.o
+
+.bss            0x20000000        0x0
+                0x20000000                        __bss_start = .
+ *(.bss)
+ *(.bss.*)
+ *(COMMON)
+                0x20000000                        . = ALIGN (0x4)
+                0x20000000                        __bss_end = .
+                0x20000000                        __end = .
+OUTPUT(TryKernel.elf elf32-littlearm)
+LOAD linker stubs
+
+.debug_info     0x00000000      0xcbb
+ .debug_info    0x00000000      0x160 ./kernel/syslib.o
+ .debug_info    0x00000160       0x5d ./boot/boot2.o
+ .debug_info    0x000001bd      0x3f4 ./boot/reset_hdr.o
+ .debug_info    0x000005b1       0xc4 ./boot/vector_tbl.o
+ .debug_info    0x00000675      0x195 ./application/main.o
+ .debug_info    0x0000080a       0x3e C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .debug_info    0x00000848       0x3c C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+ .debug_info    0x00000884       0x31 C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+ .debug_info    0x000008b5      0x3b1 C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o)
+ .debug_info    0x00000c66       0x24 C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_clzdi2.o)
+ .debug_info    0x00000c8a       0x31 C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_clzsi2.o)
+
+.debug_abbrev   0x00000000      0x635
+ .debug_abbrev  0x00000000       0xf7 ./kernel/syslib.o
+ .debug_abbrev  0x000000f7       0x49 ./boot/boot2.o
+ .debug_abbrev  0x00000140      0x16d ./boot/reset_hdr.o
+ .debug_abbrev  0x000002ad       0x99 ./boot/vector_tbl.o
+ .debug_abbrev  0x00000346      0x11d ./application/main.o
+ .debug_abbrev  0x00000463       0x28 C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .debug_abbrev  0x0000048b       0x26 C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+ .debug_abbrev  0x000004b1       0x28 C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+ .debug_abbrev  0x000004d9      0x120 C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o)
+ .debug_abbrev  0x000005f9       0x14 C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_clzdi2.o)
+ .debug_abbrev  0x0000060d       0x28 C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_clzsi2.o)
+
+.debug_aranges  0x00000000      0x1e8
+ .debug_aranges
+                0x00000000       0x38 ./kernel/syslib.o
+ .debug_aranges
+                0x00000038       0x18 ./boot/boot2.o
+ .debug_aranges
+                0x00000050       0x80 ./boot/reset_hdr.o
+ .debug_aranges
+                0x000000d0       0x20 ./boot/vector_tbl.o
+ .debug_aranges
+                0x000000f0       0x38 ./application/main.o
+ .debug_aranges
+                0x00000128       0x20 C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .debug_aranges
+                0x00000148       0x20 C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+ .debug_aranges
+                0x00000168       0x20 C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+ .debug_aranges
+                0x00000188       0x20 C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o)
+ .debug_aranges
+                0x000001a8       0x20 C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_clzdi2.o)
+ .debug_aranges
+                0x000001c8       0x20 C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_clzsi2.o)
+
+.debug_rnglists
+                0x00000000       0xd0
+ .debug_rnglists
+                0x00000000       0x25 ./kernel/syslib.o
+ .debug_rnglists
+                0x00000025       0x5f ./boot/reset_hdr.o
+ .debug_rnglists
+                0x00000084       0x13 ./boot/vector_tbl.o
+ .debug_rnglists
+                0x00000097       0x25 ./application/main.o
+ .debug_rnglists
+                0x000000bc       0x14 C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o)
+
+.debug_macro    0x00000000     0x1429
+ .debug_macro   0x00000000       0x92 ./kernel/syslib.o
+ .debug_macro   0x00000092      0xa90 ./kernel/syslib.o
+ .debug_macro   0x00000b22       0x22 ./kernel/syslib.o
+ .debug_macro   0x00000b44       0x56 ./kernel/syslib.o
+ .debug_macro   0x00000b9a       0x51 ./kernel/syslib.o
+ .debug_macro   0x00000beb      0x103 ./kernel/syslib.o
+ .debug_macro   0x00000cee       0x6a ./kernel/syslib.o
+ .debug_macro   0x00000d58      0x1df ./kernel/syslib.o
+ .debug_macro   0x00000f37       0x16 ./kernel/syslib.o
+ .debug_macro   0x00000f4d      0x2f9 ./kernel/syslib.o
+ .debug_macro   0x00001246       0x28 ./kernel/syslib.o
+ .debug_macro   0x0000126e       0x11 ./boot/boot2.o
+ .debug_macro   0x0000127f       0x94 ./boot/reset_hdr.o
+ .debug_macro   0x00001313       0x8e ./boot/vector_tbl.o
+ .debug_macro   0x000013a1       0x88 ./application/main.o
+
+.debug_line     0x00000000     0x13ce
+ .debug_line    0x00000000      0x379 ./kernel/syslib.o
+ .debug_line    0x00000379       0x30 ./boot/boot2.o
+ .debug_line    0x000003a9      0x63b ./boot/reset_hdr.o
+ .debug_line    0x000009e4      0x2ec ./boot/vector_tbl.o
+ .debug_line    0x00000cd0      0x35f ./application/main.o
+ .debug_line    0x0000102f       0x56 C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .debug_line    0x00001085       0x4a C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+ .debug_line    0x000010cf       0x55 C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+ .debug_line    0x00001124      0x1f8 C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o)
+ .debug_line    0x0000131c       0x54 C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_clzdi2.o)
+ .debug_line    0x00001370       0x5e C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_clzsi2.o)
+
+.debug_str      0x00000000     0x4faa
+ .debug_str     0x00000000     0x4faa ./kernel/syslib.o
+                               0x47b1 (size before relaxing)
+ .debug_str     0x00004faa     0x2d2c ./boot/boot2.o
+ .debug_str     0x00004faa     0x48fb ./boot/reset_hdr.o
+ .debug_str     0x00004faa     0x479a ./boot/vector_tbl.o
+ .debug_str     0x00004faa     0x47b8 ./application/main.o
+ .debug_str     0x00004faa      0x13b C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .debug_str     0x00004faa      0x13c C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+ .debug_str     0x00004faa      0x131 C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+ .debug_str     0x00004faa      0x6f4 C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o)
+ .debug_str     0x00004faa      0x120 C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_clzdi2.o)
+ .debug_str     0x00004faa      0x129 C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_clzsi2.o)
+
+.comment        0x00000000       0x39
+ .comment       0x00000000       0x39 ./kernel/syslib.o
+                                 0x3a (size before relaxing)
+ .comment       0x00000039       0x3a ./boot/boot2.o
+ .comment       0x00000039       0x3a ./boot/reset_hdr.o
+ .comment       0x00000039       0x3a ./boot/vector_tbl.o
+ .comment       0x00000039       0x3a ./application/main.o
+ .comment       0x00000039       0x3a C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o)
+
+.ARM.attributes
+                0x00000000       0x2c
+ .ARM.attributes
+                0x00000000       0x2c ./kernel/syslib.o
+ .ARM.attributes
+                0x0000002c       0x2c ./boot/boot2.o
+ .ARM.attributes
+                0x00000058       0x2c ./boot/reset_hdr.o
+ .ARM.attributes
+                0x00000084       0x2c ./boot/vector_tbl.o
+ .ARM.attributes
+                0x000000b0       0x2c ./application/main.o
+ .ARM.attributes
+                0x000000dc       0x1e C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x000000fa       0x1e C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00000118       0x1e C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x00000136       0x2c C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o)
+ .ARM.attributes
+                0x00000162       0x1e C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_clzdi2.o)
+ .ARM.attributes
+                0x00000180       0x1e C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_clzsi2.o)
+
+.debug_frame    0x00000000      0x34c
+ .debug_frame   0x00000000       0x8c ./kernel/syslib.o
+ .debug_frame   0x0000008c      0x1ac ./boot/reset_hdr.o
+ .debug_frame   0x00000238       0x2c ./boot/vector_tbl.o
+ .debug_frame   0x00000264       0x8c ./application/main.o
+ .debug_frame   0x000002f0       0x20 C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+ .debug_frame   0x00000310       0x3c C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o)
+
+.debug_line_str
+                0x00000000      0x11e
+ .debug_line_str
+                0x00000000      0x11e C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_udivsi3.o)
+                                0x112 (size before relaxing)
+ .debug_line_str
+                0x0000011e      0x112 C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_dvmd_tls.o)
+ .debug_line_str
+                0x0000011e      0x112 C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_aeabi_uldivmod.o)
+ .debug_line_str
+                0x0000011e      0x112 C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_clzdi2.o)
+ .debug_line_str
+                0x0000011e      0x112 C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_clzsi2.o)
+
+.debug_loclists
+                0x00000000      0x2b8
+ .debug_loclists
+                0x00000000      0x2b8 C:/Users/10434/AppData/Roaming/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/13.2.1-1.1.1/.content/bin/../lib/gcc/arm-none-eabi/13.2.1/thumb/v6-m/nofp\libgcc.a(_udivmoddi4.o)
