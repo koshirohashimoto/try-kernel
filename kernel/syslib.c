@@ -1,8 +1,5 @@
 /*
- * syslib.c
- *
- *  Created on: 2024/08/20
- *      Author: KoshiroHashimoto
+ *** System library
  */
 
 #include <trykernel.h>
