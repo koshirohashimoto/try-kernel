@@ -11,7 +11,7 @@ typedef struct {
 	FP		task;		// task boot addr
 	PRI		itskpri;	// task priority
 	SZ		stksz;		// stack size
-	void	*buffer;	// buffer pointer of stack
+	void	*bufptr;	// buffer pointer of stack
 } T_CTSK;
 
 /* Task attribute */
