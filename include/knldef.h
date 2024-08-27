@@ -14,6 +14,12 @@ typedef enum {
 	TS_DORMANT	= 8
 } TSTAT;
 
+/* Task wait factor */
+typedef enum {
+	TWFCT_NON	= 0;	// Not wait
+	TWFCT_DLY	= 1;	// Wait by tk_dly_tsk
+} TWFCT;
+
 /* TCB (Task Control Block) */
 typedef struct st_tcb {
 	void *context;		// Pointer to context data
@@ -22,11 +28,17 @@ typedef struct st_tcb {
 	struct	st_tcb	*pre;
 	struct	st_tcb	*next;
 
+	/* Task info */
 	TSTAT	state;				// Task state
 	FP		tskadr;				// Task program start address
 	PRI		itskpri;			// Priority
 	void	*stkadr;			// Stack address
 	SZ		stksz;				// Stack size
+	
+	/* Wait info */
+	TWFCT	waitfct;			// Wait factor
+	RELTIM	waitim;				// Wait time
+	ER		*waierr;			// Error code for wait exit
 } TCB;
 
 extern TCB	tcb_tbl[];			// TCB table

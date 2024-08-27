@@ -2,6 +2,7 @@
  *** Reset handler
 */
 
+
 #include <typedef.h>
 #include <sysdef.h>
 #include <syslib.h>
@@ -14,6 +15,7 @@ extern const void *__data_end;
 extern const void *__bss_start;
 extern const void *__bss_end;
 
+/* Initialize Clock */
 #define XOSC_STARTUP_DELAY	((XOSC_KHz + 128) / 256)
 
 /* Initialize PLL */
@@ -170,10 +172,10 @@ static void init_section(void)
 /* Initialize system timer */
 static void init_systim(void)
 {
-    out_w(SYST_CSR ,SYST_CSR_CLKSOURCE);                    // Stop SysTick
-    out_w(SYST_RVR, (TIMER_PERIOD*TMCLK_KHz)-1);            // Set reload value
-    out_w(SYST_CVR, (TIMER_PERIOD*TMCLK_KHz)-1);            // Set count value
-    out_w(SYST_CSR, SYST_CSR_CLKSOURCE | SYST_CSR_ENABLE);  // Start SysTick
+    out_w(SYST_CSR, SYST_CSR_CLKSOURCE | SYST_CSR_TICKINT);                     // Stop SysTick
+    out_w(SYST_RVR, (TIMER_PERIOD*TMCLK_KHz)-1);                                // Set reload value
+    out_w(SYST_CVR, (TIMER_PERIOD*TMCLK_KHz)-1);                                // Set count value
+    out_w(SYST_CSR, SYST_CSR_CLKSOURCE | SYST_CSR_TICKINT | SYST_CSR_ENABLE);   // Start SysTick
 }
 
 /* Reset handler */
