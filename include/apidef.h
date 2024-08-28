@@ -5,6 +5,10 @@
 #ifndef APIDEF_H_
 #define APIDEF_H_
 
+/* Time out duration */
+#define TMO_POL		(0)
+#define TMO_FEVR	(-1)	// endless loop
+
 /* Task create info */
 typedef struct {
 	ATR		tskatr;		// task attribute
@@ -27,4 +31,9 @@ ID tk_cre_tsk(const T_CTSK *pk_ctsk);
 ER tk_sta_tsk(ID tskid, INT stacd);
 void tk_ext_tsk(void);
 
-#endif /* INCLUDE_APIDEF_H_ */
+/* Task sync API */
+ER tk_dly_tsk(RELTIM dlytime);
+ER tk_slp_tsk(TMO tmout);
+ER tk_wup_tsk(ID tskid);
+
+#endif /* APIDEF_H_ */

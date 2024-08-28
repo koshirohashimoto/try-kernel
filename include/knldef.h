@@ -16,8 +16,9 @@ typedef enum {
 
 /* Task wait factor */
 typedef enum {
-	TWFCT_NON	= 0;	// Not wait
-	TWFCT_DLY	= 1;	// Wait by tk_dly_tsk
+	TWFCT_NON	= 0,	// Not wait
+	TWFCT_DLY	= 1,	// Wait by tk_dly_tsk
+	TWFCT_SLP	= 2,
 } TWFCT;
 
 /* TCB (Task Control Block) */
@@ -34,9 +35,10 @@ typedef struct st_tcb {
 	PRI		itskpri;			// Priority
 	void	*stkadr;			// Stack address
 	SZ		stksz;				// Stack size
+	INT		wupcnt;				// Wakeup count
 	
 	/* Wait info */
-	TWFCT	waitfct;			// Wait factor
+	TWFCT	waifct;			// Wait factor
 	RELTIM	waitim;				// Wait time
 	ER		*waierr;			// Error code for wait exit
 } TCB;
@@ -45,10 +47,12 @@ extern TCB	tcb_tbl[];			// TCB table
 extern TCB	*ready_queue[];		// Ready queue per priority
 extern TCB	*cur_task;			// Current task
 extern TCB	*sche_task;			// Next task
+extern TCB	*wait_queue;		// Wait queue
 
 /* Global function */
 extern void Reset_Handler(void);        // Reset hander
 extern void dispatch_entry(void);		// Dispatcher
+extern void systimer_handler(void);		// System timer interrupt handler
 
 /* Call dispatcher */
 #define SCB_ICSR		0xE000ED04		// Address of ICSR
