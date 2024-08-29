@@ -5,6 +5,7 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
 ../kernel/context.c \
+../kernel/eventflag.c \
 ../kernel/inittsk.c \
 ../kernel/scheduler.c \
 ../kernel/syslib.c \
@@ -19,6 +20,7 @@ S_UPPER_SRCS += \
 OBJS += \
 ./kernel/context.o \
 ./kernel/dispatch.o \
+./kernel/eventflag.o \
 ./kernel/inittsk.o \
 ./kernel/scheduler.o \
 ./kernel/syslib.o \
@@ -32,6 +34,7 @@ S_UPPER_DEPS += \
 
 C_DEPS += \
 ./kernel/context.d \
+./kernel/eventflag.d \
 ./kernel/inittsk.d \
 ./kernel/scheduler.d \
 ./kernel/syslib.d \

@@ -18,7 +18,8 @@ typedef enum {
 typedef enum {
 	TWFCT_NON	= 0,	// Not wait
 	TWFCT_DLY	= 1,	// Wait by tk_dly_tsk
-	TWFCT_SLP	= 2,
+	TWFCT_SLP	= 2,	// Wait by tk_slp_tsk
+	TWFCT_FLG	= 3,	// Wait by tk_wai_flg
 } TWFCT;
 
 /* TCB (Task Control Block) */
@@ -35,12 +36,17 @@ typedef struct st_tcb {
 	PRI		itskpri;			// Priority
 	void	*stkadr;			// Stack address
 	SZ		stksz;				// Stack size
-	INT		wupcnt;				// Wakeup count
+	INT		wupcnt;				// Wake up count
 	
 	/* Wait info */
-	TWFCT	waifct;			// Wait factor
+	TWFCT	waifct;				// Wait factor
 	RELTIM	waitim;				// Wait time
 	ER		*waierr;			// Error code for wait exit
+
+	/* Event flag info */
+	UINT	waiptn;				// Wait flag pattern
+	UINT	wfmode;				// Wait mode
+	UINT	*p_flgptn;			// Flag pattern for wait unlock
 } TCB;
 
 extern TCB	tcb_tbl[];			// TCB table
@@ -72,6 +78,18 @@ extern void *make_context(UW *sp, UINT ssize, void (*fp)());
 extern void tqueue_add_entry(TCB **queue, TCB *tcb);
 extern void tqueue_remove_top(TCB **queue);
 extern void tqueue_remove_entry(TCB **queue, TCB *tcb);
+
+/* Kernel object */
+typedef enum {
+	KS_NONEXIST	= 0,	// Not registered
+	KS_EXIST	= 1,	// Registered
+} KSSTAT;
+
+/* Event flag control block (FLGCB) */
+typedef struct st_flgcb {
+	KSSTAT	state;		// Event flag state
+	UINT	flgptn;		// Event flag pattern
+} FLGCB;
 
 /* OS main function */
 extern int main(void);
