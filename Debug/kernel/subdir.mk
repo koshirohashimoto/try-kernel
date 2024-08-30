@@ -8,6 +8,7 @@ C_SRCS += \
 ../kernel/eventflag.c \
 ../kernel/inittsk.c \
 ../kernel/scheduler.c \
+../kernel/semaphore.c \
 ../kernel/syslib.c \
 ../kernel/systimer.c \
 ../kernel/task_manage.c \
@@ -23,6 +24,7 @@ OBJS += \
 ./kernel/eventflag.o \
 ./kernel/inittsk.o \
 ./kernel/scheduler.o \
+./kernel/semaphore.o \
 ./kernel/syslib.o \
 ./kernel/systimer.o \
 ./kernel/task_manage.o \
@@ -37,6 +39,7 @@ C_DEPS += \
 ./kernel/eventflag.d \
 ./kernel/inittsk.d \
 ./kernel/scheduler.d \
+./kernel/semaphore.d \
 ./kernel/syslib.d \
 ./kernel/systimer.d \
 ./kernel/task_manage.d \

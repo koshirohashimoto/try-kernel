@@ -62,4 +62,16 @@ ER tk_clr_flg(ID flgid, UINT clrptn);
 
 ER tk_wai_flg(ID flgid, UINT waiptn, UINT wfmode, UINT *p_flgptn, TMO tmout);
 
+/* Semaphore create info */
+typedef struct t_cem {
+	ATR	sematr;		// Semaphore attribute
+	INT	isemcnt;	// Initial value of semaphore number
+	INT	maxsem;		// Max value of semaphore number
+} T_CSEM;
+
+/* Semaphore API */
+ID tk_cre_sem(const T_CSEM *pk_csem);
+ER tk_sig_sem(ID semid, INT cnt);
+ER tk_wai_sem(ID semid, INT cnt, TMO tmout);
+
 #endif /* APIDEF_H_ */

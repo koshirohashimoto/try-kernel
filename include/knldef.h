@@ -20,6 +20,7 @@ typedef enum {
 	TWFCT_DLY	= 1,	// Wait by tk_dly_tsk
 	TWFCT_SLP	= 2,	// Wait by tk_slp_tsk
 	TWFCT_FLG	= 3,	// Wait by tk_wai_flg
+	TWFCT_SEM	= 4,	// Wait by tk_wai_sem
 } TWFCT;
 
 /* TCB (Task Control Block) */
@@ -47,6 +48,9 @@ typedef struct st_tcb {
 	UINT	waiptn;				// Wait flag pattern
 	UINT	wfmode;				// Wait mode
 	UINT	*p_flgptn;			// Flag pattern for wait unlock
+
+	/* Semaphore info */
+	INT		waisem;				// Semaphore resource demand count
 } TCB;
 
 extern TCB	tcb_tbl[];			// TCB table
@@ -90,6 +94,13 @@ typedef struct st_flgcb {
 	KSSTAT	state;		// Event flag state
 	UINT	flgptn;		// Event flag pattern
 } FLGCB;
+
+/* Semaphore control block (SEMCB) */
+typedef struct semaphore_control_block {
+	KSSTAT	state;
+	INT		semcnt;
+	INT		maxsem;
+} SEMCB;
 
 /* OS main function */
 extern int main(void);
